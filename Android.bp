@@ -99,7 +99,8 @@ android_library {
 // Bluetooth APK
 
 android_app {
-    name: "Bluetooth",
+    name: "BluetoothQti",
+    overrides: ["Bluetooth"],
 
     platform_apis: true,
     certificate: "platform",
