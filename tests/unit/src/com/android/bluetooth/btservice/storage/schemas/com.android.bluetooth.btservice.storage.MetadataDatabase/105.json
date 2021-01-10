@@ -57,6 +57,12 @@
             "notNull": true
           },
           {
+            "fieldPath": "is_connected_a2dpsrc_device",
+            "columnName": "is_connected_a2dpsrc_device",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
             "fieldPath": "profileConnectionPolicies.a2dp_connection_policy",
             "columnName": "a2dp_connection_policy",
             "affinity": "INTEGER",
