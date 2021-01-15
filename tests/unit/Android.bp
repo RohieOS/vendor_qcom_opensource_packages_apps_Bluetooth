@@ -26,6 +26,6 @@ android_test {
 
     test_suites: ["device-tests"],
 
-    instrumentation_for: "Bluetooth",
+    instrumentation_for: "BluetoothQti",
 
 }
